@@ -3,18 +3,18 @@
 <package format="3">
   <name>ros2_service_server</name>
   <version>0.0.0</version>
-  <description>Assignment: ROS2 Service Server</description>
-  <maintainer email="student@university.edu">Student Name</maintainer>
+  <description>ROS2 C++ Add Two Ints Service Server</description>
+
+  <maintainer email="you@example.com">Vijay</maintainer>
   <license>Apache-2.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
-  <!-- TODO: Add dependencies for rclcpp and example_interfaces -->
-
-  <test_depend>ament_lint_auto</test_depend>
-  <test_depend>ament_lint_common</test_depend>
+  <depend>rclcpp</depend>
+  <depend>example_interfaces</depend>
 
   <export>
     <build_type>ament_cmake</build_type>
   </export>
 </package>
+
